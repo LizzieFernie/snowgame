@@ -22,7 +22,7 @@ export default class Stage extends StageBase {
 
     this.sounds = [new Sound("pop", "./Stage/sounds/pop.wav")];
 
-    this.triggers = [];
+    this.triggers = [new Trigger(Trigger.GREEN_FLAG, this.whenGreenFlagClicked)];
 
     this.vars.myVariable = 0;
     this.vars.belly = 1;
