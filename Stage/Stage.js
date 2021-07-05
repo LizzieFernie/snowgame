@@ -31,9 +31,10 @@ export default class Stage extends StageBase {
     this.vars.scarf = 0;
     this.vars.tillscarfcollected = 1;
     this.vars.done = 2;
-      *whenGreenFlagClicked() {
+
+  }
+        *whenGreenFlagClicked() {
     this.costume = "Blue Sky 2";
     //this.broadcast("switch");
-  }
   }
 }
